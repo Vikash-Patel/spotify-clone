@@ -7,6 +7,7 @@ const AppRoutes = () => {
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={LandingPage} />
+        <Route exact path="/signup" component={LandingPage} />
       </Switch>
     </BrowserRouter>
   );

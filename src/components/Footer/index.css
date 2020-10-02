@@ -1,0 +1,250 @@
+.footer {
+  background-color: black;
+  width: 100vw;
+  min-height: 80vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  
+}
+.footer_main {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+
+}
+.top_links_box > dl {
+  display: block;
+  padding-left: 60px;
+}
+.top_links_box > dl > dt {
+  margin-left: 25%;
+  padding-bottom: 10px;
+  color: #919496;
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: sans-serif;
+  letter-spacing: 0.08em;
+}
+
+.top_links_box > dl > dd > a {
+  padding-top: 25px;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.top_links_box > dl > dd > a:hover {
+  color: #1db954;
+}
+.footer_logo {
+  height: 55px;
+}
+.instagram_logo img {
+  background-color: #fff;
+}
+
+.top_links_box {
+  display: flex;
+  color: white;
+  min-width: 900px;
+}
+.about_link > a,
+.artists_link > a,
+.help_link > a {
+  color: white;
+  display: block;
+}
+
+.icons {
+  display: flex;
+  padding-left: 160px;
+}
+
+.footer_bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.footer_bottom > dl > a {
+  color: #919496;
+  font-weight: 700;
+  font-size: 15px;
+}
+.bottom_left {
+  padding-right: 400px;
+}
+.bottom_left > a {
+}
+.bottom_left > a:hover {
+  color: #1db954;
+}
+.bottom-right{
+  padding-left: 400px;
+}
+.bottom-right > a {
+  display: block;
+}
+.bottom-right > a:hover {
+  color: #1db954;
+}
+
+
+.icons > li {
+  list-style: none;
+  padding: 10px;
+}
+.icons > li > a {
+  background-color: #222326;
+  border-radius: 50%;
+  padding:  23px 15px 12px 12px;
+}
+.icons > li > a > i:hover {
+  color: #1db954;
+}
+
+.icons > li > a > i {
+  font-size: 40px;
+    border-radius: 50%;
+}
+
+.bottom-right > a > img {
+  width: 30px;
+  padding-left: 20px;
+}
+
+@media (max-width: 1600px) {
+
+  .bottom_left {
+    padding-right: 250px;
+  }
+  .bottom-right{
+    padding-left: 250px;
+  }
+  .top_links_box {
+    min-width: 0px;
+  }
+  .top_links_box > dl {
+    display: block;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .footer {
+    min-height: 100vh;
+    width: 100%;
+  }
+  .footer_main {
+    display: block;
+  }
+  .footer_logo {
+    /* margin-right: 850px;  */
+   }
+  .social_icons {
+    padding-left: 0vw;
+    padding-top: 140px;
+  }
+  .footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    padding-top: 20px;
+  }
+  .bottom_left > a {
+    padding: 0 10px;
+    /* padding-right: 10%; */
+    /* padding-left: 3%; */
+  }
+  .top_links_box {
+    margin-left: 0;
+    padding-top: 70px;
+    justify-content: space-between;
+  }
+  .top_links_box >dl {
+    padding-left: 0;
+    padding-right: 90px;
+  }
+  .footer_logo {
+    height: 35px;
+  }
+  .icons {
+    padding-left: 0;
+    margin: auto 0;
+}
+.bottom_left {
+  display: flex;
+  flex-flow: row;
+  padding-left: 0;
+  margin: 0 auto 60px auto;
+  /* width: 800px; */
+}
+.bottom-right > a {
+  padding: 0;
+}
+.bottom-right {
+  padding-left: 0;
+  margin: 0 auto;
+}
+}
+
+@media (max-width: 1000px) {
+  .footer {
+    padding: 0 10px;
+    width: 100%;
+  }
+
+  .footer_main  {
+    display: block;
+    width: 100vw;  
+  }
+
+  .top_links_box  {
+    display: block;
+    padding-top: 32px;
+  }
+  .top_links_box > dl > dt {
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+  .bottom-right {
+    padding-right: 0;
+    margin: 0;
+}
+.icons > li > a > i {
+  font-size: 33px;
+  padding: 14px 15px 7px 9px;
+    border-radius: 50%;
+}
+
+.icons > li > a {
+  background-color: #222326;
+  border-radius: 50%;
+  padding: 20px 2px 15px 6px;
+}
+.social_icons {
+  /* padding-left: 0vw; */
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.top_links_box >dl>dd>a {
+  padding: 15px 0px;
+}
+.top_links_box > dl {
+  padding: 30px 0;
+}
+.bottom_left {
+  padding: 0;
+  margin: 0;
+}
+.footer_bottom {
+  justify-content: space-between;
+  margin: 0;
+  padding: 20px;
+}
+.footer_bottom > dl > a {
+  /* padding-right: 10px; */
+  font-size: 12px;
+}
+}

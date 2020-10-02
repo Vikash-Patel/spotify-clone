@@ -1,6 +1,6 @@
 import React from "react";
-import "./Footer.css";
-import InstagramImg from "../assets/img/insta-bg.svg";
+import "./index.css";
+import indiaFlag from "../../assets/img/india-flag.svg";
 
 function Footer() {
   return (
@@ -18,37 +18,37 @@ function Footer() {
           <dl className="company_links">
             <dt className="company">COMPANY</dt>
             <dd className="about_link">
-              <a href="">About</a>
+              <a href="/">About</a>
 
-              <a href="">Jobs</a>
+              <a href="/">Jobs</a>
 
-              <a href="">For the Records</a>
+              <a href="/">For the Records</a>
             </dd>
           </dl>
 
           <dl className="community_links">
             <dt className="communities">COMMUNITIES</dt>
             <dd className="artists_link">
-              <a href="">For Artists</a>
+              <a href="/">For Artists</a>
 
-              <a href="">Developers</a>
+              <a href="/">Developers</a>
 
-              <a href="">Advertising</a>
+              <a href="/">Advertising</a>
 
-              <a href="">Investors</a>
+              <a href="/">Investors</a>
 
-              <a href="">Vendors</a>
+              <a href="/">Vendors</a>
             </dd>
           </dl>
 
           <dl className="useful_links">
             <dt className="usefull_link">USEFULL LINKS</dt>
             <dd className="help_link">
-              <a href="">Help</a>
+              <a href="/">Help</a>
 
-              <a href="">Web Player</a>
+              <a href="/">Web Player</a>
 
-              <a href="">Free Mobile App</a>
+              <a href="/">Free Mobile App</a>
             </dd>
           </dl>
         </div>
@@ -56,36 +56,46 @@ function Footer() {
         <div className="social_icons">
           <ul className="icons">
             <li className="instagram_icon">
-              <a href="">
-                <span className="instagram_logo">
-                  <i className="fab fa-instagram" />
-                </span>
+              <a href="/">
+                <i class="fab fa-instagram"></i>{" "}
               </a>
             </li>
 
             <li className="twittor_icon">
-              <a href="">
-                <span className="teittor_logo"></span>
+              <a href="/">
+                <i class="fab fa-twitter"></i>
               </a>
             </li>
 
             <li className="facebook_icon">
-              <a href="">
-                <span className="facebook_logo"></span>
+              <a href="/">
+                <i class="fab fa-facebook-f"></i>
               </a>
             </li>
           </ul>
         </div>
       </div>
-      {/* <div className="footer_bottom">
+
+      <div className="footer_bottom">
         <dl className="bottom_left">
-          <a>Legal</a>
-          <a>Privacy Center</a>
-          <a>Privacy Policy</a>
-          <a>Cookies</a>
-          <a>About Ads</a>
+          <a href="/">Legal</a>
+          <a href="/">Privacy Center</a>
+          <a href="/">Privacy Policy</a>
+          <a href="/">Cookies</a>
+          <a href="/">About Ads</a>
         </dl>
-      </div> */}
+        <dl className="bottom-right">
+          <a href="/">
+            India
+            <img src={indiaFlag} 
+            alt=""
+            />
+            </a>
+          <a>
+          <span>2020 Spotify AB</span>
+          </a>
+        </dl>
+      </div>
     </div>
   );
 }
