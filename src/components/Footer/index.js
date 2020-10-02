@@ -87,12 +87,10 @@ function Footer() {
         <dl className="bottom-right">
           <a href="/">
             India
-            <img src={indiaFlag} 
-            alt=""
-            />
-            </a>
-          <a>
-          <span>2020 Spotify AB</span>
+            <img src={indiaFlag} alt="..." />
+          </a>
+          <a href="/">
+            <span>2020 Spotify AB</span>
           </a>
         </dl>
       </div>

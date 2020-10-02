@@ -26,25 +26,27 @@ function Nav() {
         <li className="nav_separator" role="separator" />
 
         <dt>
-          <a 
-          className="separator" 
-          href="/">Sign up</a>
+          <a className="separator" href="/">
+            Sign up
+          </a>
         </dt>
         <dt>
-          <a 
-          className="separator" 
-          href="/">Log in</a>
+          <a className="separator" href="/">
+            Log in
+          </a>
         </dt>
-        <a href=""
-        className="nav_burger_image">
-        <img src="https://berndvoss.com/wp-content/uploads/2018/10/spotify-transp-white-1.png" />
+        <a href="/" className="nav_burger_image">
+          <img
+            src="https://berndvoss.com/wp-content/uploads/2018/10/spotify-transp-white-1.png"
+            alt="..."
+          />
         </a>
       </dl>
-      
-      <div className="burgerMenu"  onClick={() => setOpen(!open)}>
+
+      <div className="burgerMenu" onClick={() => setOpen(!open)}>
         <span className={open ? "rotateClockwise" : "noRotate"} />
-        <span className={open ? "fullTranslate" : "noTranslate"}/>
-        <span className={open ? "rotateAntiClockwise" : "noRotate"}/>
+        <span className={open ? "fullTranslate" : "noTranslate"} />
+        <span className={open ? "rotateAntiClockwise" : "noRotate"} />
       </div>
     </div>
   );
