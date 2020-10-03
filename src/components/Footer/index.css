@@ -121,6 +121,9 @@
   .bottom-right {
     padding-left: 200px;
   }
+  .bottom-right {
+    margin-block-end: 0;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -133,6 +136,7 @@
   }
   .footer_logo {
     height: 28px;
+    padding-left: 30px;
   }
   .top_links_box {
     margin-left: 0;
@@ -179,12 +183,15 @@
   .footer_main {
     display: block;
     width: 100vw;
-    margin-inline-start: 15px;
+    
+  }
+  .footer_logo {
+    padding-left: 15px;
   }
 
   .top_links_box {
     display: block;
-    padding-top: 32px;
+    padding: 32px 0 0 15px;
   }
   .top_links_box > dl {
     padding: 30px 0;
@@ -210,8 +217,8 @@
     border-radius: 50%;
   }
   .social_icons {
-    padding-top: 80px;
-    padding-bottom: 20px;
+    padding: 80px 0 20px 15px;
+    /* padding-bottom: 20px; */
   }
   .footer_bottom {
     justify-content: space-between;
@@ -222,10 +229,11 @@
     font-size: 12px;
   }
   .bottom_left {
-    padding: 0;
+    padding: 0 0 0 15px;
     margin: 0;
     display: block;
   }
+
   .bottom_left > a {
     padding: 10px;
   }
