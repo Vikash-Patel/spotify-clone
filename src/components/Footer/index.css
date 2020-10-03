@@ -54,7 +54,7 @@
 }
 .icons > li {
   list-style: none;
-  padding: 10px;
+  padding-right: 10px;
 }
 .icons > li > a {
   background-color: #222326;
@@ -179,10 +179,9 @@
   .footer_main {
     display: block;
     width: 100vw;
+    margin-inline-start: 15px;
   }
-  .footer_logo {
-    padding-left: 10px;
-  }
+
   .top_links_box {
     display: block;
     padding-top: 32px;
@@ -191,8 +190,11 @@
     padding: 30px 0;
   }
   .top_links_box > dl > dt {
-    margin-left: 40px;
+    margin-left: 0px;
     margin-bottom: 20px;
+  }
+  .top_links_box > dl > dd {
+    margin-inline-start: 0;
   }
   .top_links_box > dl > dd > a {
     padding: 15px 0px;
@@ -237,5 +239,3 @@
     padding: 0;
   }
 }
-
-
