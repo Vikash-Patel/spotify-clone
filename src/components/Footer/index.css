@@ -242,10 +242,10 @@
   }
 
   .bottom-right {
-    padding-right: 15px;
+    padding-right: 10px;
     margin: 0;
     padding-left: 0px;
-    width: 150px;
+    width: 130px;
   }
   .bottom-right > a > img {
     padding-top: 0;
