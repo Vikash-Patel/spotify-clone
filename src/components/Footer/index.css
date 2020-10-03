@@ -5,14 +5,12 @@
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  
 }
 .footer_main {
   padding-top: 80px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-
 }
 .top_links_box {
   display: flex;
@@ -61,11 +59,11 @@
 .icons > li > a {
   background-color: #222326;
   border-radius: 50%;
-  padding:  23px 15px 12px 12px;
+  padding: 23px 15px 12px 12px;
 }
 .icons > li > a > i {
   font-size: 30px;
-    border-radius: 50%;
+  border-radius: 50%;
 }
 .icons > li > a > i:hover {
   color: #1db954;
@@ -90,7 +88,7 @@
 .bottom_left > a:hover {
   color: #1db954;
 }
-.bottom-right{
+.bottom-right {
   padding-left: 300px;
 }
 .bottom-right > a {
@@ -106,7 +104,6 @@
 }
 
 @media (max-width: 1200px) {
-
   .top_links_box {
     min-width: 0px;
     margin-right: 0;
@@ -121,7 +118,7 @@
   .bottom_left {
     padding-right: 200px;
   }
-  .bottom-right{
+  .bottom-right {
     padding-left: 200px;
   }
 }
@@ -142,7 +139,7 @@
     padding-top: 70px;
     justify-content: space-between;
   }
-  .top_links_box >dl {
+  .top_links_box > dl {
     padding-left: 0;
     padding-right: 60px;
   }
@@ -176,19 +173,17 @@
   .bottom-right > a {
     padding: 0;
   }
-
 }
 
 @media (max-width: 800px) {
-
-  .footer_main  {
+  .footer_main {
     display: block;
-    width: 100vw;  
+    width: 100vw;
   }
   .footer_logo {
     padding-left: 10px;
   }
-  .top_links_box  {
+  .top_links_box {
     display: block;
     padding-top: 32px;
   }
@@ -199,7 +194,7 @@
     margin-left: 40px;
     margin-bottom: 20px;
   }
-  .top_links_box >dl>dd>a {
+  .top_links_box > dl > dd > a {
     padding: 15px 0px;
   }
   .icons > li > a {
@@ -210,7 +205,7 @@
   .icons > li > a > i {
     font-size: 33px;
     padding: 10px 10px 5px 4px;
-      border-radius: 50%;
+    border-radius: 50%;
   }
   .social_icons {
     padding-top: 80px;
@@ -228,20 +223,20 @@
     padding: 0;
     margin: 0;
   }
-  .bottom_left >a{
+  .bottom_left > a {
     padding: 5px;
   }
-  
+
   .bottom-right {
     padding-right: 0;
     margin: 0;
   }
-  .bottom-right >a > img {
-  padding: 0;
+  .bottom-right > a > img {
+    padding: 0;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
   .bottom_left {
     display: block;
   }
