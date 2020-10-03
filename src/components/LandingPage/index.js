@@ -5,8 +5,8 @@ function LandingComponent() {
   return (
     <div className="main-page-container">
       <div className="main_page">
-        <h1 className="main_tagline">
-          <span>Listening is </span>
+        <h1 >
+           Listening is <br/>
           <span>everything</span>
         </h1>
 

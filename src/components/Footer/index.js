@@ -17,11 +17,10 @@ function Footer() {
         <div className="top_links_box">
           <dl className="company_links">
             <dt className="company">COMPANY</dt>
+
             <dd className="about_link">
               <a href="/">About</a>
-
               <a href="/">Jobs</a>
-
               <a href="/">For the Records</a>
             </dd>
           </dl>
@@ -30,13 +29,9 @@ function Footer() {
             <dt className="communities">COMMUNITIES</dt>
             <dd className="artists_link">
               <a href="/">For Artists</a>
-
               <a href="/">Developers</a>
-
               <a href="/">Advertising</a>
-
               <a href="/">Investors</a>
-
               <a href="/">Vendors</a>
             </dd>
           </dl>
@@ -45,9 +40,7 @@ function Footer() {
             <dt className="usefull_link">USEFULL LINKS</dt>
             <dd className="help_link">
               <a href="/">Help</a>
-
               <a href="/">Web Player</a>
-
               <a href="/">Free Mobile App</a>
             </dd>
           </dl>
@@ -57,19 +50,19 @@ function Footer() {
           <ul className="icons">
             <li className="instagram_icon">
               <a href="/">
-                <i class="fab fa-instagram"></i>{" "}
+                <i className="fab fa-instagram"></i>{" "}
               </a>
             </li>
 
             <li className="twittor_icon">
               <a href="/">
-                <i class="fab fa-twitter"></i>
+                <i className="fab fa-twitter"></i>
               </a>
             </li>
 
             <li className="facebook_icon">
               <a href="/">
-                <i class="fab fa-facebook-f"></i>
+                <i className="fab fa-facebook-f"></i>
               </a>
             </li>
           </ul>
