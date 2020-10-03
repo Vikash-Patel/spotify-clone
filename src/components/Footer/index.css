@@ -148,7 +148,7 @@
     padding-right: 60px;
   }
   .icons {
-    padding-left: 0;
+    padding-left: 31px;
     margin: auto 0;
   }
   .social_icons {
@@ -168,7 +168,7 @@
     margin: 20px auto 60px auto;
   }
   .bottom_left > a {
-    padding: 0  10px;
+    padding: 0 10px;
   }
   .bottom-right {
     padding-left: 0;
@@ -183,7 +183,6 @@
   .footer_main {
     display: block;
     width: 100vw;
-    
   }
   .footer_logo {
     padding-left: 15px;
@@ -206,6 +205,10 @@
   .top_links_box > dl > dd > a {
     padding: 15px 0px;
   }
+  .icons {
+    padding-left: 0;
+  }
+  
   .icons > li > a {
     background-color: #222326;
     border-radius: 50%;
@@ -217,7 +220,7 @@
     border-radius: 50%;
   }
   .social_icons {
-    padding: 80px 0 20px 15px;
+    padding: 80px 0 20px 25px;
     /* padding-bottom: 20px; */
   }
   .footer_bottom {
