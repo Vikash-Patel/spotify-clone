@@ -222,22 +222,20 @@
   .bottom_left {
     padding: 0;
     margin: 0;
+    display: block;
   }
   .bottom_left > a {
-    padding: 5px;
+    padding: 10px;
   }
 
   .bottom-right {
     padding-right: 0;
     margin: 0;
+    padding-left: 72px;
   }
   .bottom-right > a > img {
     padding: 0;
   }
 }
 
-@media (max-width: 425px) {
-  .bottom_left {
-    display: block;
-  }
-}
+
